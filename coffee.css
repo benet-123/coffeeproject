@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+.header{
+    height: 50px;
+    flex-direction: row;
+    display: flex;
+    position: fixed;
+    margin-top: 20px;
+    
+}
+p{
+   
+    color: rgb(109, 31, 55);
+ margin-top: 5px;
+ font-family: "Costa Text Regular", sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    margin-bottom: 0;
+    text-align: center;
+    padding-top: 92px;
+}
+body{
+    margin: 0;
+background-image: url("./image/costa-coffee-.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+/* padding-top: 10px; */
+}
+.side-bar{
+    display: flex;
+    
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 50px;
+    width: 270px;
+background-color:black;
+position: fixed;
+border-radius: 10px;
+background-image: url("./image/yellow.png");
+background-repeat: no-repeat;
+/* background-size: cover; */
+object-position: contain;}
+
+.middle-section{
+   display: flex;
+   flex: 1;
+   margin-left: 807px;
+   margin-right: -22px;
+   max-width: 300px;
+align-items: center;  
+ 
+}
+
+
+.search-button{
+    height: 40px;
+    width: 65px;
+    border-radius: 29px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.search-image{
+    height: 35px;
+    width: 27px;
+    border-radius: 48px;
+}
+.search-bar{
+    flex: 1;
+    height: 34px;
+    padding-left: 12px;
+    font-size: 16px;
+    border: solid black 2px;
+    border-radius: 30px;
+    background-color:blanchedalmond;
+    display: flex;
+    width:515px ;
+    margin-left: 100px;
+   
+    
+}
+.search-bar:hover{
+    background-color: rgb(119, 18, 18);
+}
+.serach-bar::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+    
+    .links{
+        text-decoration: none;
+        margin-left: 10px;
+        margin-right: 10px;
+        color:white;
+font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+   
+    .all-links{
+margin-left: 324px;  
+display: inline-block;
+
+ }
+ .intro{
+    font-size: 50px;
+    margin-left: -366px;
+    margin-top: 60px;
+     font-family: 'Libre Baskerville', serif;
+    }
+
+.right-section{
+  
+  flex-shrink: 0;
+  display: flex;
+}
+.sidebar-link{
+background-color: blue;
+height: 75px;
+margin-bottom: 1px;
+width: 40px;
+margin-left: 20px;
+
+
+}
+.fonts
+{
+    color: brown;
+    font-size: 30px;
+  padding-top:0;
+}
+.p2{
+    font-size: 30px;
+    display: inline-block;
+    line-height: 20px;
+    margin-left: 5px;
+    color: brown;
+    padding-left: 10px;
+    font-family: 'Qwitcher Grypen', cursive;
+}
+.paragraph{
+    width: 1772px;
+    height: 100px;
+    margin-left: 200px;
+    padding: 0px;
+    text-align: left;
+    line-height: 40px;
+}
+.image{
+    margin-left: 1248px;
+    width: 605px;
+    height: 456px;
+    border-radius: 10px;
+    margin-top: -420px;
+}
+.intro1{
+    font-size: 40px;
+    font-family: 'Libre Baskerville', serif;
+    margin-left:-241px ;
+    line-height: 70px;
+    color:rgb(75, 41, 41);
+}
+.break{
+    font-size: 50px;
+}
+.menu{
+    font-size: 50px;
+    color: bisque;
+    margin-top: -75px;
+    text-align: center;
+    margin-left: 321px;
+}
+.mochap{
+    font-size: 39px;
+    margin-left: 4px;
+    padding-top: 26px;
+    padding-bottom: 20px;
+    color: beige;
+    font-family: 'Qwitcher Grypen', cursive;
+}
+.mocha-image{
+    height: 164px;
+    width: 185px;
+    margin-left: 56px;
+    border-radius: 89px;
+}
+.mocha{
+    background-color:rgb(92, 44, 44);
+    width: 279px;
+    height: 463px;
+    margin-left: 418px;
+    margin-top:52px ;
+    border-radius: 59px;
+}
+.mochdes{
+    font-size: 17px;
+    margin-left: 17px;
+    color: black;
+    padding: 10px;
+    margin-top: 32px;
+}
+.moch-button{
+    font-size: 21px;
+    padding: 10px;
+    margin-left: 79px;
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: antiquewhite;
+}
+.moch-button:hover{
+    background-color: brown;
+}
+.hazelnutp{
+    font-size: 39px;
+    margin-left: 4px;
+    padding-top: 26px;
+    padding-bottom: 20px;
+    color: beige;
+    font-family: 'Qwitcher Grypen', cursive;
+
+}
+.hazelnut-image{
+    height: 164px;
+    width: 185px;
+    margin-left: 52px;
+    border-radius: 89px;
+    margin-top: 3px;
+}
+.hazelnut{
+    width: 279px;
+    height: 463px;
+    margin-left: 793px;
+    margin-top: -470px;
+    border-radius: 59px; 
+       background-color:rgb(92, 44, 44);
+
+}
+.hazelnutdes{
+    font-size: 17px;
+    margin-left: 17px;
+    color: black;
+    padding: 10px;
+    margin-top: 32px;
+}
+
+
+.hazelnutbutton{
+    font-size: 21px;
+    padding: 10px;
+    margin-left: 79px;
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: antiquewhite;
+}
+.hazelnutbutton:hover{
+    background-color: brown;
+}
+.mangop{
+    font-size: 39px;
+    margin-left: 4px;
+    padding-top: 26px;
+    padding-bottom: 20px;
+    color: beige;
+    font-family: 'Qwitcher Grypen', cursive;
+
+}
+.mango-image{
+    height: 164px;
+    width: 185px;
+    margin-left: 52px;
+    border-radius: 89px;
+    margin-top: 3px;
+} 
+.mangodes{
+    font-size: 17px;
+    margin-left: 17px;
+    color: black;
+    padding: 10px;
+    margin-top: 32px;
+}
+.mangobutton{
+    font-size: 21px;
+    padding: 10px;
+    margin-left: 79px;
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: antiquewhite;
+
+}
+.mango{
+    width: 279px;
+    height: 463px;
+    margin-left: 1161px;
+    margin-top: -470px;
+    border-radius: 59px; 
+       background-color:rgb(92, 44, 44);
+
+}
+.mangobutton:hover{
+    background-color: brown;
+}
+.belp{
+    font-size: 39px;
+    margin-left: 4px;
+    padding-top: 26px;
+    padding-bottom: 20px;
+    color: beige;
+    font-family: 'Qwitcher Grypen', cursive;
+
+}
+.belimage{
+    height: 164px;
+    width: 185px;
+    margin-left: 52px;
+    border-radius: 89px;
+    margin-top: 3px;
+
+}
+.beldes{
+    font-size: 17px;
+    margin-left: 17px;
+    color: black;
+    padding: 10px;
+    margin-top: 32px;
+
+}
+.bel{
+    font-size: 21px;
+    padding: 10px;
+    margin-left: 79px;
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: antiquewhite;
+
+}
+.belgianchoc{
+    width: 279px;
+    height: 463px;
+    margin-left: 1530px;
+        margin-top: -470px;
+    border-radius: 59px; 
+       background-color:rgb(92, 44, 44);
+
+}
+.bel:hover{
+    background-color: brown;
+}
+.Sandwiches{
+    font-size: 50px;
+    color: #ffe4c4;
+    margin-top: -34px;
+    text-align: center;
+    margin-left: 321px;
+
+}
+.catp{
+    font-size: 39px;
+    margin-left: 4px;
+    padding-top: 26px;
+    padding-bottom: 20px;
+    color: beige;
+    font-family: 'Qwitcher Grypen', cursive;
+
+}
+.caterimage{
+    height: 164px;
+    width: 185px;
+    margin-left: 52px;
+    border-radius: 89px;
+    margin-top: 3px;
+
+}
+.caterdes{
+    font-size: 17px;
+    margin-left: 17px;
+    color: black;
+    padding: 10px;
+    margin-top: 32px;
+ 
+}
+
+.caterpillar1{
+    width: 279px;
+    height: 463px;
+    margin-left: 417px;
+    margin-top: 59px;  
+      border-radius: 59px; 
+       background-color:rgb(92, 44, 44);
+
+}
+.catbut{
+    font-size: 21px;
+    padding: 10px;
+    margin-left: 79px;
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: antiquewhite;
+
+}
+.catbut:hover{
+    background-color:brown ;
+}
+.sandp{
+    font-size: 39px;
+    margin-left: 4px;
+    padding-top: 26px;
+    padding-bottom: 20px;
+    color: beige;
+    font-family: 'Qwitcher Grypen', cursive;
+
+}
+.cornsandwich1{
+    width: 279px;
+    height: 463px;
+    margin-left: 794px;
+    margin-top: -473px;      
+     background-color:rgb(92, 44, 44);
+border-radius:59px ;
+}
+.sandimage{
+    height: 164px;
+    width: 185px;
+    margin-left: 52px;
+    border-radius: 89px;
+    margin-top: 3px;
+
+}
+.sanddes{
+    font-size: 17px;
+    margin-left: 17px;
+    color: black;
+    padding: 10px;
+    margin-top: 32px;
+ 
+}
+.sanbutton{
+    font-size: 21px;
+    padding: 10px;
+    margin-left: 79px;
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: antiquewhite;
+
+}
+.sanbutton:hover{
+background-color: brown;
+}
+.paneer1{
+    width: 279px;
+    height: 463px;
+    margin-left: 1160px;
+    margin-top: -473px;      
+     background-color:rgb(92, 44, 44);
+border-radius:59px ;
+
+}
+.paneerp{
+    font-size: 39px;
+    margin-left: 4px;
+    padding-top: 26px;
+    padding-bottom: 20px;
+    color: beige;
+    font-family: 'Qwitcher Grypen', cursive;
+
+}
+.paneerimage{
+    height: 164px;
+    width: 185px;
+    margin-left: 52px;
+    border-radius: 89px;
+    margin-top: 3px;
+
+}
+.paneerdes{
+    font-size: 17px;
+    margin-left: 17px;
+    color: black;
+    padding: 10px;
+    margin-top: 32px;
+
+}
+.paneerbutton{
+    font-size: 21px;
+    padding: 10px;
+    margin-left: 79px;
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: antiquewhite;
+
+}
+.paneerbutton:hover{
+    background-color: brown;
+}
+.choco-cheese1{
+    width: 279px;
+    height: 463px;
+    margin-left: 1529px;
+    margin-top: -464px;
+          border-radius: 59px; 
+       background-color:rgb(92, 44, 44);
+
+}
+.cheesep{
+    font-size: 39px;
+    margin-left: 4px;
+    padding-top: 26px;
+    padding-bottom: 20px;
+    color: beige;
+    font-family: 'Qwitcher Grypen', cursive;
+
+}
+.cheeseimage{
+    height: 164px;
+    width: 185px;
+    margin-left: 52px;
+    border-radius: 89px;
+    margin-top: 3px;
+
+}
+.cheesedes{
+    font-size: 17px;
+    margin-left: 17px;
+    color: black;
+    padding: 10px;
+    margin-top: 32px;
+
+}
+.cheesebutton{
+    font-size: 21px;
+    padding: 10px;
+    margin-left: 79px;
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: antiquewhite;
+
+}
+.cheesebutton:hover{
+    background-color: brown;
+}
+.paraending{
+    font-size:25px ;
+    width: 56%;
+    margin-left: 300px;
+}
+.paraendingdes{
+    width: 100%;
+    height: 500px;
+    background-color: blanchedalmond;
+}
+.About-us{
+    color: black;
+    font-size: 50px;
+    margin-left: -1044px;
+    margin-top: -364px;
+}
+.list1{
+    margin-left: 350px;
+    font-size: 30px;
+    line-height: 40px;
+    color: brown;
+}
+.info{
+    color: black;
+    font-size: 50px;
+    margin-left: 56px;
+    margin-top: -408px;
+ 
+}
+.list2{
+    margin-left: 708px;
+    font-size: 30px;
+    line-height: 40px;
+    color: brown;
+
+
+}
+.contact{
+    color: black;
+    font-size: 50px;
+    margin-left: 1126px;
+    margin-top: -330px;
+
+}
+.facebook{
+    margin-left: 1416px;
+    font-size: 50px;
+    color: black;
+}
+.icon1{
+    margin-top: 32px;
+}
+.twitter{
+    margin-left: 1486px;
+    font-size: 50px;
+    color: black;
+
+}
+.icon2{
+    margin-top: -51px;
+
+}
+.icon3{
+    margin-top: -57px;
+ 
+}
+.youtube{
+    margin-left: 1552px;
+    font-size: 50px;
+    color: black;
+
+}
+.icon4{
+    margin-top: -57px;
+
+}
+.email{
+    margin-left: 1622px;
+    font-size: 50px;
+    color: black;
+
+}
+.id{
+    margin-left: 1622px;
+    color: black;
+    margin-top: -49px;
+
+}
+.id1{
+    font-size: 34px;
+    color: black;
+    margin-left: 60px;
+    text-decoration: none;
+    margin-top: 5px;
+}
